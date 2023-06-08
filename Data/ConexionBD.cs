@@ -56,7 +56,7 @@ namespace Apiseria.Data
         {
             try
             {
-                strCadenaCnx = "workstation id=DB-JMG-2503680.mssql.somee.com;packet size=4096;user id=Yoyisn_SQLLogin_1;pwd=3113509873Mi;data source=DB-JMG-2503680.mssql.somee.com;persist security info=False;initial catalog=DB-JMG-2503680";
+                strCadenaCnx = "workstation id=DB-LDSO-2503680.mssql.somee.com;packet size=4096;user id=LuisDaniel_SQLLogin_1;pwd=krhifvm3wn;data source=DB-LDSO-2503680.mssql.somee.com;persist security info=False;initial catalog=DB-LDSO-2503680";
                 objCnnBD.ConnectionString = strCadenaCnx;
                 objCnnBD.Open();
                 blnBDAbierta = true;
